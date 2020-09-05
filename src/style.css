@@ -1,0 +1,16 @@
+﻿.drawer__inner__mastodon {
+	position: relative;
+}
+.drawer__inner__mastodon iframe {
+	position: absolute;
+	bottom: 40px;
+}
+
+.compose-form {
+	position: relative;
+}
+.compose-form__mixlr {
+	display: flex;
+}
+.compose-form iframe {
+}
