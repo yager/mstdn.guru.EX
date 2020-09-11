@@ -13,6 +13,8 @@
 .compose-form {
 	position: relative;
 	z-index: 99;
+	max-height: 460px;
+	padding-bottom: 0 !important;
 }
 .compose-form__mixlr {
 	display: flex;

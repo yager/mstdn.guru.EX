@@ -1,7 +1,7 @@
 {
   "name": "グルドン拡張",
   "description": "グルドンの画面を便利にするやつ",
-  "version": "0.3",
+  "version": "0.4",
   "manifest_version": 2,
   "content_scripts": [{
     "matches": ["https://mstdn.guru/*"],
