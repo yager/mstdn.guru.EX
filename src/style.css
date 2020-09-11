@@ -1,16 +1,29 @@
 ﻿.drawer__inner__mastodon {
 	position: relative;
 }
-.drawer__inner__mastodon iframe {
+.drawer__inner__mastodon iframe#ytIF {
+	position: absolute;
+	bottom: 195px;
+}
+.drawer__inner__mastodon iframe#mixlrIF {
 	position: absolute;
 	bottom: 40px;
 }
 
 .compose-form {
 	position: relative;
+	z-index: 99;
 }
 .compose-form__mixlr {
 	display: flex;
 }
-.compose-form iframe {
+.getting-started__footer {
+	position: absolute;
+	bottom: 0;
+	padding: 20px 10px 0px 10px !important;
+}
+.getting-started__footer p {
+	margin: 0;
+	margin-bottom: 5px !important;
+	padding: 0;
 }
